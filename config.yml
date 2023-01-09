@@ -1,0 +1,31 @@
+languageCode:           "en"
+title:                  "Tailwind CSS Admin Dashboard - Flowbite"
+baseURL:                "http://localhost:1313"
+# baseURL:                "https://flowbite.com/application-ui/demo"
+enableInlineShortcodes: true
+canonifyURLs: true
+
+params:
+  homepage: "https://flowbite.com/templates/tailwind-admin-dashboard/"
+  authors: Themesberg
+  social_image_path: /application-ui/demo/images/og-image.jpg
+
+markup:
+  goldmark:
+    renderer:
+      unsafe:           true
+  highlight:
+    noClasses:          false
+    style:              colorful
+  tableOfContents:
+    startLevel:         2
+    endLevel:           6
+
+buildDrafts:            true
+buildFuture:            true
+
+enableRobotsTXT:        true
+metaDataFormat:         "yaml"
+disableKinds:           ["404", "taxonomy", "taxonomyTerm", "RSS"]
+
+publishDir:             "_gh_pages"
