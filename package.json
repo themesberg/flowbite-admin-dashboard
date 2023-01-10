@@ -51,6 +51,6 @@
   "dependencies": {
     "@popperjs/core": "^2.10.2",
     "apexcharts": "^3.29.0",
-    "flowbite": "^1.6.0"
+    "flowbite": "^1.6.1"
   }
 }
