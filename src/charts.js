@@ -160,7 +160,7 @@ if (document.getElementById('new-products-chart')) {
 					{ x: '02 Feb', y: 180 },
 					{ x: '03 Feb', y: 164 },
 					{ x: '04 Feb', y: 145 },
-					{ x: '05 Feb', y: 174 },
+					{ x: '05 Feb', y: 194 },
 					{ x: '06 Feb', y: 170 },
 					{ x: '07 Feb', y: 155 },
 				]
@@ -170,10 +170,10 @@ if (document.getElementById('new-products-chart')) {
 				color: '#FDBA8C',
 				data: [
 					{ x: '01 Feb', y: 120 },
-					{ x: '02 Feb', y: 134 },
+					{ x: '02 Feb', y: 294 },
 					{ x: '03 Feb', y: 167 },
 					{ x: '04 Feb', y: 179 },
-					{ x: '05 Feb', y: 145 },
+					{ x: '05 Feb', y: 245 },
 					{ x: '06 Feb', y: 182 },
 					{ x: '07 Feb', y: 143 }
 				]
@@ -181,7 +181,7 @@ if (document.getElementById('new-products-chart')) {
 		],
 		chart: {
 			type: 'bar',
-			height: '305px',
+			height: '140px',
 			fontFamily: 'Inter, sans-serif',
 			foreColor: '#4B5563',
 			toolbar: {
@@ -190,12 +190,12 @@ if (document.getElementById('new-products-chart')) {
 		},
 		plotOptions: {
 			bar: {
-				columnWidth: '50%',
+				columnWidth: '90%',
 				borderRadius: 3
 			}
 		},
 		tooltip: {
-			shared: true,
+			shared : false,
 			intersect: false,
 			style: {
 				fontSize: '14px',
@@ -225,7 +225,7 @@ if (document.getElementById('new-products-chart')) {
 			show: false
 		},
 		xaxis: {
-			floating: true,
+			floating: false,
 			labels: {
 				show: false
 			},
@@ -307,15 +307,6 @@ const getVisitorsChartOptions = () => {
 	}
 }
 
-if (document.getElementById('visitors-chart')) {
-	const chart = new ApexCharts(document.getElementById('visitors-chart'), getVisitorsChartOptions());
-	chart.render();
-
-	// init again when toggling dark mode
-	document.addEventListener('dark-mode', function () {
-		chart.updateOptions(getVisitorsChartOptions());
-	});
-}
 
 const getSignupsChartOptions = () => {
 	let signupsChartColors = {}
@@ -333,12 +324,12 @@ const getSignupsChartOptions = () => {
 	return {
 		series: [{
 			name: 'Users',
-			data: [34, 45, 53, 38, 55, 32, 36]
+			data: [1334, 2435, 1753, 1328, 1155, 1632, 1336]
 		}],
 		labels: ['01 Feb', '02 Feb', '03 Feb', '04 Feb', '05 Feb', '06 Feb', '07 Feb'],
 		chart: {
 			type: 'bar',
-			height: '305px',
+			height: '140px',
 			foreColor: '#4B5563',
 			fontFamily: 'Inter, sans-serif',
 			toolbar: {
@@ -365,7 +356,7 @@ const getSignupsChartOptions = () => {
 			}
 		},
 		xaxis: {
-			floating: true,
+			floating: false,
 			labels: {
 				show: false
 			},
@@ -440,7 +431,7 @@ const getTrafficChannelsChartOptions = () => {
 		colors: ['#16BDCA', '#FDBA8C', '#1A56DB', '#D61F69', '#9061F9', '#6875F5'],
 		chart: {
 			type: 'donut',
-			height: 305,
+			height: 140,
 			fontFamily: 'Inter, sans-serif',
 			toolbar: {
 				show: false
