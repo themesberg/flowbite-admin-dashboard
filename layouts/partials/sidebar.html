@@ -65,12 +65,12 @@
                 <span class="flex-1 ml-3 text-left whitespace-nowrap" sidebar-toggle-item>Playground</span>
                 <svg sidebar-toggle-item class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
             </button>
-            <ul id="dropdown-playground" class="space-y-2 py-2 {{ if not (eq .Params.group "crud") }}hidden {{ end }}">
+            <ul id="dropdown-playground" class="space-y-2 py-2 {{ if not (eq .Params.group "playground") }}hidden {{ end }}">
               <li>
-                <a href="{{ "playground/stacked/" | relURL }}" class="text-base text-gray-900 rounded-lg flex items-center p-2 group hover:bg-gray-100 transition duration-75 pl-11 dark:text-gray-200 dark:hover:bg-gray-700 {{ if eq $page_slug "products" }} bg-gray-100 dark:bg-gray-700 {{ end }}">Stacked</a>
+                <a href="{{ "playground/stacked/" | relURL }}" class="text-base text-gray-900 rounded-lg flex items-center p-2 group hover:bg-gray-100 transition duration-75 pl-11 dark:text-gray-200 dark:hover:bg-gray-700 {{ if eq $page_slug "stacked" }} bg-gray-100 dark:bg-gray-700 {{ end }}">Stacked</a>
               </li>
               <li>
-                <a href="{{ "playground/sidebar/" | relURL }}" class="text-base text-gray-900 rounded-lg flex items-center p-2 group hover:bg-gray-100 transition duration-75 pl-11 dark:text-gray-200 dark:hover:bg-gray-700 {{ if eq $page_slug "users" }} bg-gray-100 dark:bg-gray-700 {{ end }}">Sidebar</a>
+                <a href="{{ "playground/sidebar/" | relURL }}" class="text-base text-gray-900 rounded-lg flex items-center p-2 group hover:bg-gray-100 transition duration-75 pl-11 dark:text-gray-200 dark:hover:bg-gray-700 {{ if eq $page_slug "sidebar" }} bg-gray-100 dark:bg-gray-700 {{ end }}">Sidebar</a>
               </li>
             </ul>
           </li>
