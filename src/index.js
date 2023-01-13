@@ -1,5 +1,5 @@
 import './style.css';
-import 'flowbite/dist/flowbite.min.js'
+import 'flowbite';
 import './sidebar';
 import './charts';
 import './dark-mode';

@@ -1799,10 +1799,10 @@
   "resolved" "https://registry.npmjs.org/flatten/-/flatten-1.0.3.tgz"
   "version" "1.0.3"
 
-"flowbite@^1.6.1":
-  "integrity" "sha512-043bg9bnDJf97yItNyH1kbs3+vWOqmGBQM9ia1cUpyOCRp9/IYrBXF7jjrQ0oedwW0Ws+ixJRK23iBsvRxzZYA=="
-  "resolved" "https://registry.npmjs.org/flowbite/-/flowbite-1.6.1.tgz"
-  "version" "1.6.1"
+"flowbite@^1.6.2":
+  "integrity" "sha512-a/hB/fyG6m+EsMWpCaKOtFZGeQef+JLPS854DdFYitct8MNPnW5YKIOBQnIroyMtn60jOeMINg/XU1yh6m4pxw=="
+  "resolved" "https://registry.npmjs.org/flowbite/-/flowbite-1.6.2.tgz"
+  "version" "1.6.2"
   dependencies:
     "@popperjs/core" "^2.9.3"
     "mini-svg-data-uri" "^1.4.3"
