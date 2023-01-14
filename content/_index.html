@@ -1068,7 +1068,57 @@ footer: true
           <h3 class="mb-2 text-xl font-bold text-gray-900 dark:text-white">Transactions</h3>
           <span class="text-base font-normal text-gray-500 dark:text-gray-400">This is a list of latest transactions</span>
         </div>
-        <div>
+        <div class="flex items-center">
+          <div class="flex items-center justify-center p-4">
+            <button id="dropdownDefault" data-dropdown-toggle="dropdown"
+              class="inline-flex items-center text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 font-medium rounded-lg text-sm px-4 py-2.5 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700"
+              type="button">
+              Filter by status
+              <svg class="w-4 h-4 ml-2" aria-hidden="true" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+              </svg>
+            </button>
+            <!-- Dropdown menu -->
+            <div id="dropdown" class="z-10 hidden w-56 p-3 bg-white rounded-lg shadow dark:bg-gray-700">
+              <h6 class="mb-3 text-sm font-medium text-gray-900 dark:text-white">
+                Category
+              </h6>
+              <ul class="space-y-2 text-sm" aria-labelledby="dropdownDefault">
+                <li class="flex items-center">
+                  <input id="apple" type="checkbox" value="" class="w-4 h-4 bg-gray-100 border-gray-300 rounded text-primary-600 focus:ring-primary-500 dark:focus:ring-primary-600 dark:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500" />
+          
+                  <label for="apple" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-100">
+                    Completed (56)
+                  </label>
+                </li>
+          
+                <li class="flex items-center">
+                  <input id="fitbit" type="checkbox" value="" checked class="w-4 h-4 bg-gray-100 border-gray-300 rounded text-primary-600 focus:ring-primary-500 dark:focus:ring-primary-600 dark:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500" />
+          
+                  <label for="fitbit" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-100">
+                    Cancelled (56)
+                  </label>
+                </li>
+          
+                <li class="flex items-center">
+                  <input id="dell" type="checkbox" value="" class="w-4 h-4 bg-gray-100 border-gray-300 rounded text-primary-600 focus:ring-primary-500 dark:focus:ring-primary-600 dark:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500" />
+          
+                  <label for="dell" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-100">
+                    In progress (56)
+                  </label>
+                </li>
+          
+                <li class="flex items-center">
+                  <input id="asus" type="checkbox" value="" checked class="w-4 h-4 bg-gray-100 border-gray-300 rounded text-primary-600 focus:ring-primary-500 dark:focus:ring-primary-600 dark:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500" />
+          
+                  <label for="asus" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-100">
+                    In review (97)
+                  </label>
+                </li>
+              </ul>
+            </div>
+          </div>
           <div date-rangepicker class="flex items-center space-x-4">
             <div class="relative">
               <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
@@ -1231,13 +1281,13 @@ footer: true
                   </tr>
                   <tr class="bg-gray-50 dark:bg-gray-700">
                     <td class="p-4 text-sm font-normal text-gray-900 whitespace-nowrap dark:text-white">
-                      Payment from <span class="font-semibold">THEMESBERG LLC</span>
+                      Refund to <span class="font-semibold">THEMESBERG LLC</span>
                     </td>
                     <td class="p-4 text-sm font-normal text-gray-500 whitespace-nowrap dark:text-gray-400">
                       Apr 11 ,2021
                     </td>
                     <td class="p-4 text-sm font-semibold text-gray-900 whitespace-nowrap dark:text-white">
-                      $560
+                      -$560
                     </td>
                     <td class="p-4 text-sm font-normal text-gray-500 whitespace-nowrap dark:text-gray-400">
                       0031568935
@@ -1247,8 +1297,7 @@ footer: true
                       <span>••• 443</span>
                     </td>
                     <td class="p-4 whitespace-nowrap">
-                      <span
-                        class="bg-green-100 dark:bg-green-200 text-green-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded-md">Completed</span>
+                      <span class="bg-orange-100 dark:bg-orange-200 text-orange-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded-md">In review</span>
                     </td>
                   </tr>
 
@@ -1270,8 +1319,7 @@ footer: true
                       <span>••• 223</span>
                     </td>
                     <td class="p-4 whitespace-nowrap">
-                      <span
-                        class="bg-green-100 dark:bg-green-200 text-green-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded-md">Completed</span>
+                      <span class="bg-orange-100 dark:bg-orange-200 text-orange-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded-md">In review</span>
                     </td>
                   </tr>
                   <tr class="bg-gray-50 dark:bg-gray-700">
