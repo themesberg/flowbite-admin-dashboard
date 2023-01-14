@@ -517,7 +517,7 @@ const getTrafficChannelsChartOptions = () => {
 
 	if (document.documentElement.classList.contains('dark')) {
 		trafficChannelsChartColors = {
-			strokeColor: '#111827'
+			strokeColor: '#1f2937'
 		};
 	} else {
 		trafficChannelsChartColors = {
@@ -531,12 +531,20 @@ const getTrafficChannelsChartOptions = () => {
 		colors: ['#16BDCA', '#FDBA8C', '#1A56DB'],
 		chart: {
 			type: 'donut',
-			height: 440,
+			height: 400,
 			fontFamily: 'Inter, sans-serif',
 			toolbar: {
 				show: false
 			},
 		},
+		responsive: [{
+			breakpoint: 430,
+			options: {
+			  chart: {
+				height: 300
+			  }
+			}
+		}],
 		stroke: {
 			colors: [trafficChannelsChartColors.strokeColor]
 		},
