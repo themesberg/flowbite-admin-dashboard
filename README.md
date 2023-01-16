@@ -67,7 +67,7 @@ This product is built using the following widely used technologies:
 
 | Dashboard | Stacked Layout | Products (CRUD)
 | --- | --- | --- |
-| [![Dashboard](https://flowbite.s3.amazonaws.com/templates/flowbite-admin-dashboard/github/homepage.jpg)](https://flowbite-admin-dashboard.vercel.app/) | [![Stacked Layout](https://flowbite.s3.amazonaws.com/templates/flowbite-admin-dashboard/github/stacked.jpg)](https://flowbite-admin-dashboard.vercel.app/layouts/stacked/) | [![Products (CRUD)](https://flowbite.s3.amazonaws.com/templates/flowbite-admin-dashboard/github/products.jpg)](https://flowbite-admin-dashboard.vercel.app/crud/products/)
+| [![Dashboard](https://flowbite.s3.amazonaws.com/templates/flowbite-admin-dashboard/github/homepage.jpg)](https://flowbite-admin-dashboard.vercel.app/) | [![Stacked Layout](https://flowbite.s3.amazonaws.com/templates/flowbite-admin-dashboard/github/stacked.jpg)](https://flowbite-admin-dashboard.vercel.app/layouts/stacked/) | [![Products (CRUD)](https://flowbite.s3.amazonaws.com/templates/flowbite-admin-dashboard/github/products-crud.jpg)](https://flowbite-admin-dashboard.vercel.app/crud/products/)
 
 | Users (CRUD) | Settings | Pricing page
 | --- | --- | --- |
