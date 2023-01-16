@@ -19,7 +19,7 @@
     "start:dev:hugo": "hugo server -D --watch",
     "start:dev:webpack": "webpack --mode=development --watch",
     "build": "NODE_ENV=production && run-s build:webpack build:hugo",
-    "build:hugo": "hugo --destination=./.build",
+    "build:hugo": "hugo --destination=./public",
     "build:webpack": "webpack --mode=production",
     "build:styles": "npx tailwindcss -i ./src/style.css -o ./dist/css/flowbite.css"
   },
