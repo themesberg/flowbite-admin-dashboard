@@ -13,3 +13,4 @@ temp
 yarn-error.log
 release
 .release
+public/
