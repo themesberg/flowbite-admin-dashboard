@@ -1,15 +1,19 @@
 {
-  "name": "tailwind-admin-dashboard",
+  "name": "flowbite-admin-dashboard",
   "version": "1.0.0",
   "description": "A free and open-source admin dashboard template built with Tailwind CSS and Flowbite",
-  "license": "MIT License",
+  "keywords": ["tailwind", "tailwind css", "flowbite", "admin dashboard", "dashboard ui", "admin dashboard template", "html", "css", "javascript"],
+  "license": "MIT",
   "style": "dist/flowbite.css",
   "main": "static/js/app.bundle.js",
   "homepage": "https://flowbite.com",
+  "repository": "https://github.com/themesberg/flowbite-admin-dashboard.git",
+  "bugs": "https://github.com/themesberg/flowbite-admin-dashboard/issues",
   "contributors": [
     "Zoltán Szőgyényi <https://twitter.com/zoltanszogyenyi>",
     "Robert Tanislav <https://twitter.com/roberttanislav>"
   ],
+  "author": "Bergside Inc.",
   "scripts": {
     "start": "run-p start:dev:*",
     "start:dev:hugo": "hugo server -D --watch",
