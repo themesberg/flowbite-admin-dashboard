@@ -42,6 +42,7 @@
     "esprima" "^4.0.1"
     "esutils" "^2.0.2"
     "optionator" "^0.8.1"
+  optionalDependencies:
     "source-map" "~0.6.1"
 
 "@javascript-obfuscator/estraverse@^5.3.0", "@javascript-obfuscator/estraverse@5.3.0":
@@ -1597,6 +1598,7 @@
     "estraverse" "^5.2.0"
     "esutils" "^2.0.2"
     "optionator" "^0.8.1"
+  optionalDependencies:
     "source-map" "~0.6.1"
 
 "eslint-scope@5.1.1":
@@ -2534,8 +2536,9 @@
   "resolved" "https://registry.npmjs.org/jsonfile/-/jsonfile-6.1.0.tgz"
   "version" "6.1.0"
   dependencies:
-    "graceful-fs" "^4.1.6"
     "universalify" "^2.0.0"
+  optionalDependencies:
+    "graceful-fs" "^4.1.6"
 
 "kind-of@^6.0.2":
   "integrity" "sha512-dcS1ul+9tmeD95T+x28/ehLgd9mENa3LsvDTtzm3vyBEO7RPptvAD+t44WVXaUjTBRcrpFeFlC8WCruUR456hw=="

@@ -700,12 +700,12 @@ footer: true
                   </button>
               </div>
             </form>
-            <a href="#" class="inline-flex items-center text-xs font-medium text-primary-700 sm:text-sm dark:text-primary-500">
+            <span data-collapse-toggle="thread-1" class="inline-flex items-center text-xs font-medium cursor-pointer hover:underline text-primary-700 sm:text-sm dark:text-primary-500">
               Hide thread
               <svg class="w-5 h-5 ml-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                 <path clip-rule="evenodd" fill-rule="evenodd" d="M14.707 12.707a1 1 0 01-1.414 0L10 9.414l-3.293 3.293a1 1 0 01-1.414-1.414l4-4a1 1 0 011.414 0l4 4a1 1 0 010 1.414z"></path>
               </svg>
-            </a>
+            </span>
           </article>
           <div class="w-full border border-gray-200 rounded-lg bg-gray-50 dark:bg-gray-700 dark:border-gray-600">
               <div class="px-4 py-2 bg-white rounded-t-lg dark:bg-gray-800">
@@ -806,7 +806,7 @@ footer: true
           </div>
         </div>
         <div class="p-4 bg-white border border-gray-200 rounded-lg shadow-sm dark:border-gray-700 sm:p-6 dark:bg-gray-800">
-          <div class="flex items-center justify-between pb-4 border-b border-gray-200 dark:border-gray-700 mb-4">
+          <div class="flex items-center justify-between pb-4 mb-4 border-b border-gray-200 dark:border-gray-700">
             <div>
               <h3 class="text-base font-normal text-gray-500 dark:text-gray-400">Traffic by device</h3>
               <span class="text-2xl font-bold leading-none text-gray-900 sm:text-3xl dark:text-white">Desktop</span>
@@ -818,7 +818,7 @@ footer: true
           </div>
           <div id="traffic-by-device"></div>
           <!-- Card Footer -->
-          <div class="flex items-center justify-between lg:justify-evenly pt-4 sm:pt-6">
+          <div class="flex items-center justify-between pt-4 lg:justify-evenly sm:pt-6">
             <div>
               <svg class="w-8 h-8 mb-1 text-gray-500 dark:text-gray-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                 <path clip-rule="evenodd" fill-rule="evenodd" d="M2 4.25A2.25 2.25 0 014.25 2h11.5A2.25 2.25 0 0118 4.25v8.5A2.25 2.25 0 0115.75 15h-3.105a3.501 3.501 0 001.1 1.677A.75.75 0 0113.26 18H6.74a.75.75 0 01-.484-1.323A3.501 3.501 0 007.355 15H4.25A2.25 2.25 0 012 12.75v-8.5zm1.5 0a.75.75 0 01.75-.75h11.5a.75.75 0 01.75.75v7.5a.75.75 0 01-.75.75H4.25a.75.75 0 01-.75-.75v-7.5z"></path>
@@ -1068,7 +1068,7 @@ footer: true
           <h3 class="mb-2 text-xl font-bold text-gray-900 dark:text-white">Transactions</h3>
           <span class="text-base font-normal text-gray-500 dark:text-gray-400">This is a list of latest transactions</span>
         </div>
-        <div class="sm:flex items-center">
+        <div class="items-center sm:flex">
           <div class="flex items-center">
             <button id="dropdownDefault" data-dropdown-toggle="dropdown"
               class="mb-4 sm:mb-0 mr-4 inline-flex items-center text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 font-medium rounded-lg text-sm px-4 py-2.5 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700"
