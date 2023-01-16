@@ -1,14 +1,14 @@
 languageCode:           "en"
-title:                  "Tailwind CSS Admin Dashboard - Flowbite"
-baseURL:                "http://localhost:1313"
-# baseURL:                "https://flowbite.com/application-ui/demo"
+title:                  "Flowbite Admin Dashboard"
+# baseURL:                "http://localhost:1313"
+baseURL:                "https://flowbite.com/application-ui/demo"
 enableInlineShortcodes: true
 canonifyURLs: true
 
 params:
-  homepage: "https://flowbite.com/templates/tailwind-admin-dashboard/"
+  homepage: "https://flowbite.com/"
   authors: Themesberg
-  social_image_path: /application-ui/demo/images/og-image.jpg
+  social_image_path: /application-ui/demo/images/og-image.png
 
 markup:
   goldmark:
