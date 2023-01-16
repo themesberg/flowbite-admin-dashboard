@@ -8,7 +8,7 @@ canonifyURLs: true
 params:
   homepage: "https://flowbite.com/"
   authors: Themesberg
-  social_image_path: /application-ui/demo/images/og-image.png
+  social_image_path: images/og-image.png
 
 markup:
   goldmark:
