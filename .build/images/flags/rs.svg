@@ -1,0 +1,18 @@
+<svg width="28" height="20" viewBox="0 0 28 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="0.25" y="0.25" width="27.5" height="19.5" rx="1.75" fill="white" stroke="#F5F5F5" stroke-width="0.5"/>
+<mask id="mask0" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="28" height="20">
+<rect x="0.25" y="0.25" width="27.5" height="19.5" rx="1.75" fill="white" stroke="white" stroke-width="0.5"/>
+</mask>
+<g mask="url(#mask0)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0 13.3332H28V6.6665H0V13.3332Z" fill="#17508F"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0 6.66667H28V0H0V6.66667Z" fill="#E1444D"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M6 9.99984C6 9.35478 6.34366 7.91768 6.5375 7.1584C6.61181 6.86735 6.87495 6.6665 7.17534 6.6665H10.1592C10.459 6.6665 10.7218 6.86655 10.7964 7.15694C10.9903 7.91179 11.3333 9.34004 11.3333 9.99984C11.3333 10.7448 10.833 12.7006 10.6992 13.2103C10.6777 13.2923 10.6412 13.3675 10.5872 13.4328C10.3317 13.7424 9.49918 14.6665 8.66667 14.6665C7.83364 14.6665 7.00061 13.7413 6.74565 13.4323C6.69202 13.3673 6.65559 13.2925 6.63405 13.2111C6.50018 12.7051 6 10.7633 6 9.99984Z" fill="white"/>
+<mask id="mask1" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="6" y="6" width="6" height="9">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M6 9.99984C6 9.35478 6.34366 7.91768 6.5375 7.1584C6.61181 6.86735 6.87495 6.6665 7.17534 6.6665H10.1592C10.459 6.6665 10.7218 6.86655 10.7964 7.15694C10.9903 7.91179 11.3333 9.34004 11.3333 9.99984C11.3333 10.7448 10.833 12.7006 10.6992 13.2103C10.6777 13.2923 10.6412 13.3675 10.5872 13.4328C10.3317 13.7424 9.49918 14.6665 8.66667 14.6665C7.83364 14.6665 7.00061 13.7413 6.74565 13.4323C6.69202 13.3673 6.65559 13.2925 6.63405 13.2111C6.50018 12.7051 6 10.7633 6 9.99984Z" fill="white"/>
+</mask>
+<g mask="url(#mask1)">
+<path d="M11.3333 7.33317L5.99992 13.9998" stroke="#E1444D" stroke-width="1.33333" stroke-linecap="square"/>
+<path d="M6 7.33317L11.3333 13.9998" stroke="#E1444D" stroke-width="1.33333" stroke-linecap="square"/>
+</g>
+</g>
+</svg>
