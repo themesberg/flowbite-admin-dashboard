@@ -1,0 +1,19 @@
+version: '3'
+services:
+  nodejs:
+    image: node:slim
+    container_name: flowbit-admin-dashboard
+    working_dir: /app
+    volumes:
+      - .:/app
+    ports:
+      - "1313:1313"
+    environment:
+      - NODE_ENV=development
+    command: bash -c "apt-get update && apt-get install -y hugo && yarn install && hugo server --bind='0.0.0.0' && npm run start"
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge
