@@ -1801,10 +1801,10 @@
   "resolved" "https://registry.npmjs.org/flatten/-/flatten-1.0.3.tgz"
   "version" "1.0.3"
 
-"flowbite@^2.1.0":
-  "integrity" "sha512-s8Dey263bdHhFSQUsh3yFTkATi6aBatODDRZbbdBn/+BCpLgg2j9d5zAgB+n1XxQBi6wOPzGyAL4K9HqKx7cpg=="
-  "resolved" "https://registry.npmjs.org/flowbite/-/flowbite-2.1.0.tgz"
-  "version" "2.1.0"
+"flowbite@^2.1.1":
+  "integrity" "sha512-FkTwNXlfWRXUhSsiE9D4bEqLN8ywdunW2qOz1z7gN+Co7h9EQIJf/Fr4xgq1NJPFa+6MeMf08QLzviU7LqB/rQ=="
+  "resolved" "https://registry.npmjs.org/flowbite/-/flowbite-2.1.1.tgz"
+  "version" "2.1.1"
   dependencies:
     "@popperjs/core" "^2.9.3"
     "mini-svg-data-uri" "^1.4.3"
