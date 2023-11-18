@@ -91,13 +91,14 @@ This product is built using the following widely used technologies:
 
 1. Clone this repository or download the ZIP file
 2. Make sure that you have Node.js and NPM installed
-3. Install the project dependencies from the `package.json` file:
+3. Install [Hugo](https://gohugo.io/installation)
+4. Install the project dependencies from the `package.json` file:
 
 ```
 npm install
 ```
 
-4. Create a local server on `localhost:1313` by running the following command:
+5. Create a local server on `localhost:1313` by running the following command:
 
 ```
 npm run start
