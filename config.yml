@@ -1,7 +1,7 @@
 languageCode:           "en"
 title:                  "Flowbite Admin Dashboard"
 # baseURL:                "http://localhost:1313"
-baseURL:                "https://flowbite-admin-dashboard.vercel.app/"
+baseURL:                "https://flowbite-admin-dashboard-sage.vercel.app/"
 enableInlineShortcodes: true
 canonifyURLs: true
 
