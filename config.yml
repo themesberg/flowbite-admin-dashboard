@@ -1,13 +1,13 @@
-languageCode:           "en"
-title:                  "Flowbite Admin Dashboard"
+languageCode:           "id"
+title:                  "Amalan Abu Sofiya"
 # baseURL:                "http://localhost:1313"
 baseURL:                "https://amalan.vercel.app/"
 enableInlineShortcodes: true
 canonifyURLs: true
 
 params:
-  homepage: "https://flowbite.com/"
-  authors: Themesberg
+  homepage: "https://www.abusofiya.com/"
+  authors: Abu Sofiya
   social_image_path: images/og-image.png
 
 markup:
