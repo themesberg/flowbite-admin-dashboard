@@ -37,9 +37,6 @@ module.exports = {
         'width': 'width'
       },
       textDecoration: ['active'],
-      minWidth: {
-        'kanban': '28rem'
-      },
     },
   },
 
