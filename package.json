@@ -65,7 +65,7 @@
     "@popperjs/core": "^2.10.2",
     "@tailwindcss/postcss": "^4.0.0",
     "apexcharts": "^3.46.0",
-    "flowbite": "^3.0.0-beta.3",
+    "flowbite": "^3.1.1",
     "tailwindcss": "^4.0.0"
   }
 }
